@@ -1,0 +1,35 @@
+# Archivos de Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Entornos Virtuales de Python y cachés
+venv/
+dcdepth_env/
+__pycache__/
+*.pyc
+
+# Archivos de compilación de C++ (DeepDSO)
+# ¡ESTA LÍNEA ES LA CLAVE PARA IGNORAR TODO LO COMPILADO!
+3_deepdso_slam/client_cpp/build/
+
+*.o
+*.so
+*.a
+
+# Archivos temporales generados por el sistema
+3_deepdso_slam/client_cpp/test.jpg
+3_deepdso_slam/client_cpp/depthcrfs.txt
+**/benchmark_log.csv
+**/results/
+
+# Archivos de IDEs
+.vscode/
+.idea/
+
+# Carpetas de datos pesados
+external/datasets/
+*.bag
+*.zip
+*.run
+
+**/benchmark/data/

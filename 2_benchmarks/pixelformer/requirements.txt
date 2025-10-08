@@ -1,0 +1,18 @@
+# Entorno para el benchmark de PixelFormer en CPU
+# ------------------------------------------------
+# Stack Principal de PyTorch (CPU-only)
+# Instalar con: pip install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
+torch==1.10.0+cpu
+torchvision==0.11.1+cpu
+torchaudio==0.10.0+cpu
+
+# Frameworks de Modelos y Visión
+# La versión de timm es la que funcionó bien en el benchmark de DCDepth
+timm==0.6.13
+
+# MMCV requiere un comando de instalación aparte (ver instrucciones)
+
+# Librerías de Utilidad
+matplotlib
+tqdm
+tensorboardX

@@ -1,0 +1,10 @@
+# Dependencias para el servidor de inferencia Monodepth2
+# Basado en el informe DTIC, Fase 3 [cite: 220]
+torch==1.7.1
+torchvision==0.8.2
+numpy
+opencv-python==4.5.5.64
+matplotlib
+Pillow
+scikit-image
+Flask
