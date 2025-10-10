@@ -1,7 +1,12 @@
 # Dependencias para el servidor de inferencia Monodepth2
-# Basado en el informe DTIC, Fase 3 [cite: 220]
-torch==1.7.1
-torchvision==0.8.2
+# Apuntar a la fuente de descarga oficial de PyTorch para versiones antiguas/específicas
+-f https://download.pytorch.org/whl/torch_stable.html
+
+# Versiones compatibles especificando CPU
+torch==1.7.1+cpu
+torchvision==0.8.2+cpu
+
+# Otras dependencias
 numpy
 opencv-python==4.5.5.64
 matplotlib
