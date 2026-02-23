@@ -1,0 +1,27 @@
+# Ignore build artifacts and temporary files
+build/
+CMakeFiles/
+CMakeCache.txt
+install_manifest.txt
+*.so
+
+# Ignore large archives and binary files
+*.tar.gz
+libzip-1.1.tar.gz
+
+# Ignore IDE and editor files
+*.vscode/
+*.sublime-*
+
+# Ignore OS-generated files
+.DS_Store
+__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore specific files (if not needed in repo)
+demo.gif
